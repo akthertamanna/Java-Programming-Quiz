@@ -1,0 +1,233 @@
+{
+  "result": {
+    "categories": [
+      {
+        "categoryTitle_C": "Computer Science",
+        "categoryID_C": 1,
+        "levelsCompleted_C": 0
+      }
+    ],
+    "quizzes": [
+      {
+        "questionID_Q": 1,
+        "question_Q": "Which among the following is the shortcut key to delete a file without moving it into Recycle Bin?",
+        "optionA_Q": "Shift + Delete",
+        "optionB_Q": "Ctrl + D",
+        "optionC_Q": "Alt + Delete",
+        "optionD_Q": "Ctrl + Shift + Delete",
+        "answer_Q": 1,
+        "hint_Q": "This key combination bypasses the Recycle Bin and permanently deletes the selected file.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 2,
+        "question_Q": "What is the shape of the full moon?",
+        "optionA_Q": "Triangle",
+        "optionB_Q": "Circle",
+        "optionC_Q": "Square",
+        "optionD_Q": "Star",
+        "answer_Q": 2,
+        "hint_Q": "It resembles a round object like a ball.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 3,
+        "question_Q": "What is the chemical formula of water?",
+        "optionA_Q": "H2",
+        "optionB_Q": "O",
+        "optionC_Q": "N2",
+        "optionD_Q": "H2O",
+        "answer_Q": 4,
+        "hint_Q": "Two hydrogen atoms and one oxygen atom combine.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 4,
+        "question_Q": "What is an animal scientist called?",
+        "optionA_Q": "Seismologists",
+        "optionB_Q": "Astronomer",
+        "optionC_Q": "Zoologists",
+        "optionD_Q": "Oceanographer",
+        "answer_Q": 3,
+        "hint_Q": "It starts with Z and involves the study of animals.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 5,
+        "question_Q": "Which two animals can see behind without moving their head?",
+        "optionA_Q": "Fox and Rabbit",
+        "optionB_Q": "Owl and Lion",
+        "optionC_Q": "Parrot and Dog",
+        "optionD_Q": "Parrot and Rabbit",
+        "answer_Q": 4,
+        "hint_Q": "One loves carrots, and the other has colorful feathers.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 6,
+        "question_Q": "How many bones are in the axial part of the skeleton?",
+        "optionA_Q": "120 Bones",
+        "optionB_Q": "75 Bones",
+        "optionC_Q": "80 Bones",
+        "optionD_Q": "85 Bones",
+        "answer_Q": 3,
+        "hint_Q": "It's more than 75 but less than 82.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 7,
+        "question_Q": "What do we call the lower part of our Earth?",
+        "optionA_Q": "North Hemisphere",
+        "optionB_Q": "Southern Hemisphere",
+        "optionC_Q": "East Hemisphere",
+        "optionD_Q": "West Hemisphere",
+        "answer_Q": 2,
+        "hint_Q": "Opposite of North.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 8,
+        "question_Q": "Which pigment determines the color of human skin?",
+        "optionA_Q": "Pheomelanin",
+        "optionB_Q": "Melanin",
+        "optionC_Q": "A and B",
+        "optionD_Q": "None of the above",
+        "answer_Q": 2,
+        "hint_Q": "It protects the skin from sunlight.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 9,
+        "question_Q": "Which fruit has only one big seed?",
+        "optionA_Q": "Banana",
+        "optionB_Q": "Pineapple",
+        "optionC_Q": "Mango",
+        "optionD_Q": "Orange",
+        "answer_Q": 3,
+        "hint_Q": "Known as the king of fruits in tropical regions.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 10,
+        "question_Q": "Which fruit has a crown over it?",
+        "optionA_Q": "Apple",
+        "optionB_Q": "Grape",
+        "optionC_Q": "Orange",
+        "optionD_Q": "Pineapple",
+        "answer_Q": 4,
+        "hint_Q": "It’s sweet, tropical, and has a spiky crown on top.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 11,
+        "question_Q": "Which is the largest vegetable?",
+        "optionA_Q": "Pumpkin",
+        "optionB_Q": "Cucumber",
+        "optionC_Q": "Broccoli",
+        "optionD_Q": "Cabbage",
+        "answer_Q": 1,
+        "hint_Q": "It's known for its sweetness.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 12,
+        "question_Q": "Name a vegetable that is rich in vitamin A?",
+        "optionA_Q": "Banana",
+        "optionB_Q": "Cucumber",
+        "optionC_Q": "Radish",
+        "optionD_Q": "Carrot",
+        "answer_Q": 4,
+        "hint_Q": "We can eat it directly without cooking, and its taste is sweet.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 13,
+        "question_Q": "How much percent of water does watermelon have?",
+        "optionA_Q": "70",
+        "optionB_Q": "92",
+        "optionC_Q": "30",
+        "optionD_Q": "50",
+        "answer_Q": 2,
+        "hint_Q": "More than 50% but less than 100%.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 14,
+        "question_Q": "Animals without backbones are known as?",
+        "optionA_Q": "Vertebrate",
+        "optionB_Q": "Invertebrate",
+        "optionC_Q": "Both A and B",
+        "optionD_Q": "None of the above",
+        "answer_Q": 2,
+        "hint_Q": "The opposite of vertebrates.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 15,
+        "question_Q": "Name the person who studied plants?",
+        "optionA_Q": "Zoologists",
+        "optionB_Q": "Biologists",
+        "optionC_Q": "Botanist",
+        "optionD_Q": "None of the above",
+        "answer_Q": 3,
+        "hint_Q": "Starts with B.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 16,
+        "question_Q": "Who is Virat Kohli?",
+        "optionA_Q": "Australian cricket player",
+        "optionB_Q": "Indian cricket player",
+        "optionC_Q": "Bangladeshi cricket player",
+        "optionD_Q": "Pakistani cricket player",
+        "answer_Q": 2,
+        "hint_Q": "He made his test debut in 2011.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 17,
+        "question_Q": "Name the person who discovered the human cell?",
+        "optionA_Q": "Robert Hooke",
+        "optionB_Q": "Albert Einstein",
+        "optionC_Q": "J. J. Thomson",
+        "optionD_Q": "John Dalton",
+        "answer_Q": 1,
+        "hint_Q": "He coined the term 'cell' while observing cork under a microscope.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 18,
+        "question_Q": "Who is the number 1 scientist in the world?",
+        "optionA_Q": "Marie Curie",
+        "optionB_Q": "Isaac Newton",
+        "optionC_Q": "Albert Einstein",
+        "optionD_Q": "Charles Darwin",
+        "answer_Q": 3,
+        "hint_Q": "He developed the theory of relativity.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 19,
+        "question_Q": "Where is the smallest bone present in the human body?",
+        "optionA_Q": "End ear",
+        "optionB_Q": "Start ear",
+        "optionC_Q": "A and B",
+        "optionD_Q": "Middle ear",
+        "answer_Q": 4,
+        "hint_Q": "It is in the ear and plays a role in hearing.",
+        "categoryID_Q": 1
+      },
+      {
+        "questionID_Q": 20,
+        "question_Q": "Which side of the brain controls the left side of the human body?",
+        "optionA_Q": "Left side",
+        "optionB_Q": "Right side",
+        "optionC_Q": "Middle side",
+        "optionD_Q": "Both A and B",
+        "answer_Q": 2,
+        "hint_Q": "Opposite of left.",
+        "categoryID_Q": 1
+      }
+    ]
+  }
+}

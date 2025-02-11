@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".activity.TestActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:paddingBottom="10dp"
+            android:paddingHorizontal="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layer_top"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="@dimen/quizPlayTitle"
+                    android:textAllCaps="true"
+                    android:textColor="@color/title_on_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/categories" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="10dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <include
+                        android:id="@+id/layout_shop_features"
+                        layout="@layout/layout_coins"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                android:text="Reward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/layer_buttons_reward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="0sp"
+                android:paddingVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/reward_15_px"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+
+                    <ImageView
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/layout_reward"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/coin_coin" />
+
+
+                    <TextView
+                        android:id="@+id/txt_reward_get"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_extra_bold"
+                        android:layout_below="@+id/layout_reward"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="10"
+                        android:textColor="#D4A017"
+                        android:textSize="16sp" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:minWidth="20dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_claim"
+                        android:text="Claim 10"
+                        android:textAllCaps="false"
+                        style="@style/NormalButton"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/white"
+                        android:background="@drawable/primary_15px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:minWidth="20dp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_double_reward"
+                        android:drawableStart="@drawable/video_ad"
+                        android:text="@string/double_x2"
+                        style="@style/NormalButton"
+                        android:textAllCaps="true"
+                        android:paddingHorizontal="10dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/white"
+                        android:background="@drawable/secondary_15px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                android:text="@string/performance_breakdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:id="@+id/layer_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="0sp"
+                android:paddingVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/success_15px"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+
+                    <TextView
+                        android:layout_alignParentTop="true"
+                        android:id="@+id/txt_correct_answer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="5"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/green"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_below="@+id/txt_correct_answer"
+                        android:id="@+id/txtCorrect"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/green"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="Correct" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:minWidth="20dp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/incorrect_15_px"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+
+                    <TextView
+                        android:id="@+id/txt_wrong_answer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="16sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="4"
+                        android:textColor="@color/red"/>
+
+
+                    <TextView
+                        android:layout_below="@+id/txt_wrong_answer"
+                        android:id="@+id/txtWrong"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/red"
+                        android:textSize="12sp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Wrong" />
+
+
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:id="@+id/layer_buttons2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="0sp"
+                android:paddingVertical="5dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/skipped_15px"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+
+
+
+                    <TextView
+                        android:id="@+id/txt_skipped_question"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="1"
+                        android:textColor="#333333"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/txtSkipped"
+                        android:layout_below="@+id/txt_skipped_question"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#333333"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="Skipped" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:minWidth="20dp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/timer_15_px"
+                    android:gravity="center"
+                    android:padding="15dp">
+                    <TextView
+                        android:id="@+id/txt_timer_taken"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="40"
+                        android:textColor="#6B3F2B"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_marginTop="7dp"
+                        android:id="@+id/txtTimer_takenLabel"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="#6B3F2B"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_timer_taken"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/seconds_taken"/>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/layer_buttons_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="0sp"
+                android:paddingVertical="5dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_check_answer"
+                        android:text="@string/check_answer"
+                        android:textAllCaps="false"
+                        style="@style/NormalButton"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white"
+                        android:background="@drawable/primary_15px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:minWidth="20dp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_retry"
+                        android:text="@string/retry"
+                        android:textAllCaps="false"
+                        style="@style/NormalButton"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/title_on_light"
+                        android:background="@drawable/primary_border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:minWidth="20dp" />
+
+                <RelativeLayout
+                    android:clickable="true"
+                    android:id="@+id/layer_btn_home"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/primary_15px"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:padding="15dp">
+
+
+                    <ImageView
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/layout_home"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/ic_home_white_24dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_below="@+id/layout_home"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="Home"
+                        android:textColor="@color/title_on_dark"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <include
+        android:id="@+id/layout_progress"
+        layout="@layout/progress_bar_overlay"/>
+
+
+</RelativeLayout>

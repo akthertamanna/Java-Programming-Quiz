@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">200dp</dimen>
+
+    <!--  Quiz Screen  -->
+    <dimen name="quizPauseIconSize">45dp</dimen>
+    <dimen name="quizPlayTitle">20sp</dimen>">
+
+
+</resources>

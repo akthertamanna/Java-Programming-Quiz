@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.QuizLevelActivity">
+
+    <RelativeLayout
+        android:id="@+id/topBg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/topWc"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/category"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/txtQuizCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:text="@string/level"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:id="@+id/txtQuizLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_below="@+id/topWc"
+        android:paddingBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/topLinearLayout"
+            android:paddingHorizontal="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:paddingTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/quizLi"
+                        android:paddingHorizontal="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.card.MaterialCardView
+                            app:layout_constraintTop_toBottomOf="@+id/topWc"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="120dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:elevation="4dp"
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="15dp">
+
+                            <TextView
+                                android:padding="15dp"
+                                android:textColor="@color/purple_700"
+                                android:text="@string/what_is_question"
+                                android:textSize="18sp"
+                                android:minHeight="50dp"
+                                android:gravity="center"
+                                android:layout_gravity="center_vertical"
+                                android:id="@+id/txtQuizQuestion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:paddingTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_gravity="center_vertical"
+                        android:weightSum="10"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false">
+
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:visibility="visible"
+                                android:gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <ProgressBar
+                                    android:id="@+id/circleProgressID"
+                                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                    android:indeterminate="false"
+                                    android:progressDrawable="@drawable/circleprogress"
+                                    android:layout_width="@dimen/quizPauseIconSize"
+                                    android:layout_height="@dimen/quizPauseIconSize"/>
+
+                                <TextView
+                                    android:id="@+id/txtQuizTime"
+                                    android:layout_width="match_parent"
+                                    android:textAlignment="center"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_alignStart="@+id/circleProgressID"
+                                    android:layout_alignEnd="@+id/circleProgressID"
+                                    android:layout_centerVertical="true"
+                                    android:text="30"
+                                    android:textColor="@color/purple_700"
+                                    android:textSize="14sp" />
+
+
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+                        <RelativeLayout
+                            android:layout_weight="6"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content">
+
+
+                            <ProgressBar
+
+                                android:id="@+id/questionProgressID"
+                                android:progressDrawable="@drawable/progressbar"
+                                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"/>
+
+                            <TextView
+
+                                android:id="@+id/txtQuizLeft"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="@string/demo_score"
+                                android:textColor="@color/white"
+                                android:textSize="14sp" />
+
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center"
+                            android:layout_height="wrap_content">
+
+
+
+                                <RelativeLayout
+
+                                    android:id="@+id/hintRelLayer"
+                                    android:layout_marginTop="0dp"
+                                    android:background="@drawable/hint_bg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:id="@+id/imgBtnHint"
+                                        android:layout_width="@dimen/quizPauseIconSize"
+                                        android:layout_height="@dimen/quizPauseIconSize"
+                                        android:layout_gravity="center_vertical"
+                                        android:contentDescription="@string/hint_button"
+                                        android:gravity="center"
+                                        android:padding="10dp"
+                                        android:src="@drawable/bulb"
+                                        android:textSize="22sp" />
+
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_alignEnd="@+id/hintRelLayer"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginEnd="-8dp"
+                                    android:background="@drawable/roundbg"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/txtHintAvailable"
+                                        android:gravity="center"
+                                        android:text="0"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </RelativeLayout>
+
+
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/txtHint"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:textSize="@dimen/quizTxtHintSize"
+                            android:text="@string/hint_will_be_appear_here"
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <LinearLayout
+                                android:id="@+id/btn1Lin"
+                                android:background="@drawable/quiz_option_bg"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="vertical"
+                                android:minHeight="50dp"
+                                android:padding="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textColor="@color/white"
+                                    android:id="@+id/txtOpt1"
+                                    android:layout_gravity="start"
+                                    android:gravity="center_vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/option_text"/>
+                            </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn2Lin"
+                            android:background="@drawable/quiz_option_bg"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="vertical"
+                            android:minHeight="50dp"
+                            android:padding="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textColor="@color/white"
+                                android:id="@+id/txtOpt2"
+                                android:layout_gravity="start"
+                                android:gravity="center_vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/option_text"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:id="@+id/btn3Lin"
+                                android:background="@drawable/quiz_option_bg"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="vertical"
+                                android:minHeight="50dp"
+                                android:padding="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textColor="@color/white"
+                                    android:id="@+id/txtOpt3"
+                                    android:layout_gravity="start"
+                                    android:gravity="center_vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/option_text"/>
+                            </LinearLayout>
+
+                        <LinearLayout
+                                android:id="@+id/btn4Lin"
+                                android:background="@drawable/quiz_option_bg"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical"
+                                android:minHeight="50dp"
+                                android:padding="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textColor="@color/white"
+                                    android:id="@+id/txtOpt4"
+                                    android:layout_gravity="start"
+                                    android:gravity="center_vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/option_text"/>
+                            </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bottomLinearLayout"
+                        android:paddingHorizontal="10dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imgBtnPause"
+                            android:background="@drawable/hint_bg"
+                            android:contentDescription="@string/pause_quiz_content_description"
+                            android:src="@drawable/rounded_pause_circle_24"
+                            android:layout_width="@dimen/quizPauseIconSize"
+                            android:layout_height="@dimen/quizPauseIconSize"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

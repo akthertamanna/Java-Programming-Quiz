@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/app_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CategoryActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layer_top"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:paddingHorizontal="20dp">
+
+        <TextView
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="@dimen/quizPlayTitle"
+            android:textAllCaps="true"
+            android:textColor="@color/title_on_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categories" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <include
+                android:id="@+id/layout_shop_features"
+                layout="@layout/layout_coins"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="75dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:layout_below="@+id/layer_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="0dp"
+            android:layout_height="wrap_content">
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:paddingTop="5dp"
+               android:id="@+id/recycler_category"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/category_layer_bottom"
+        android:background="@color/primary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="20dp">
+
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/layer_back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/polygon_bg"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/back_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/layer_close_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/polygon_bg"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_baseline_close_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/layout_progress"
+        layout="@layout/progress_bar_overlay"/>
+
+
+</RelativeLayout>

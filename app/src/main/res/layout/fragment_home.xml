@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment">
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeHomeFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:scrollbars="none"
+            android:paddingBottom="55dp"
+            android:id="@+id/nestedScrollView_home_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingHorizontal="20dp"
+                android:paddingBottom="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtUsername"
+                    android:text="@string/hi_firstname"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="@dimen/commonTitle"
+                    android:textStyle="bold"
+                    android:textColor="@color/purple_700"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/happy_to_see_you_again"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="@dimen/normalText"
+                    android:textStyle="normal"
+                    android:textColor="@color/purple_700"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/collapsing_home_category_main_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <RelativeLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:visibility="gone"
+                    android:text="@string/no_data_found"
+                    android:textAlignment="center"
+                    android:id="@+id/no_data_home_fragment_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/txtCategoryTitle"
+                    android:text="@string/category"
+                    android:textColor="@color/purple_700"
+                    android:textSize="@dimen/commonTitle"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/collapsing_home_category_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewHomeCategoryFrag"
+                        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:text="@string/no_data_found"
+                        android:id="@+id/noDataHomeMainCatFragment"
+                        android:minHeight="@dimen/noCategoryFoundTxtMinHeight"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+                <TextView
+                    android:textAlignment="viewEnd"
+                    android:gravity="end"
+                    android:textColor="@color/main_blue_color"
+                    android:id="@+id/txtViewAllCategory"
+                    android:text="@string/view_all_categories"
+                    android:textSize="@dimen/view_all_cat"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="@dimen/commonMarginBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+
+
+</RelativeLayout>

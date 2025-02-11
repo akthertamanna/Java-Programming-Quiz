@@ -1,0 +1,21 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/overlayView_layout"
+    android:visibility="gone"
+    android:clickable="false"
+    android:focusable="false"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/pid"
+        android:background="@android:color/transparent"
+        android:indeterminate="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyle"
+        android:indeterminateDrawable="@drawable/progress_splash"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+</RelativeLayout>

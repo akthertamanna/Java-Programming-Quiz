@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Java Programming Quiz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="category_name">Category Name</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_Categories">Categories</string>
+    <string name="about">About</string>
+    <string name="emailus">storeskapps@gmail.com</string>
+    <string name="noQuiz">Not enough Quiz found for this category</string>
+    <string name="problemSpla">Something went wrong\nPlease check your internet connection or exit and enter again</string>
+    <string name="title_activity_testing">Testing</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hint_used">All hint are already used</string>
+    <string name="you_win">You Win</string>
+    <string name="you_lose">You Lose</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_us">About Us</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="please_send_email_at">"Please send email at: "</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="offline_txt">Look like you\'re offline or something went wrong</string>
+    <string name="go_to_back">Go to back</string>
+    <string name="no_data_found">No data found</string>
+    <string name="pick_category">Pick Category</string>
+    <string name="up_to_100_categories">Up to 100 Categories</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="category">Category</string>
+    <string name="view_all_categories">View All Categories</string>
+    <string name="quiz_history">Quiz History</string>
+    <string name="you_have_participated_in_X_quiz">You have participated in</string>
+    <string name="quiz_result">Quiz Result</string>
+    <string name="pause_quiz_content_description">This is image button to pause the quiz</string>
+    <string name="hint_button">Hint button</string>
+    <string name="what_is_question">What is question?</string>
+    <string name="better_luck_next_time">Better Luck Next Time</string>
+    <string name="need_at_least_60_to_win">Need at least 60% to win</string>
+    <string name="demo_score">1/11</string>
+    <string name="play_again">Play Again</string>
+    <string name="go_to_home">Go T0 Home</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="this_is_for_image_view">This is for image view</string>
+    <string name="skipped">Skipped</string>
+    <string name="level">Level</string>
+    <string name="this_is_question_image">This is question image</string>
+    <string name="option_text">A) Beginner</string>
+    <string name="term_amp_conditions"><![CDATA[Term & Conditions]]></string>
+    <string name="about_quiz_master_app">About Quiz Master App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="hint_will_be_appear_here">Hint will be appear here</string>
+    <string name="no_number">0</string>
+    <string name="please_wait">Please wait</string>
+    <string name="timer_icon">Timer icon</string>
+    <string name="advance">Advance</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="beginner">Beginner</string>
+    <string name="happy_to_see_you_again">Happy to see you again!</string>
+    <string name="hi_firstname">Hi Firstname</string>
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+    <string name="shop">Shop</string>
+    <string name="quit">Quit</string>
+    <string name="java_quiz_game">JAVA QUIZ GAME</string>
+    <string name="easy">EASY</string>
+    <string name="medium">medium</string>
+    <string name="hard">hard</string>
+    <string name="todo">TODO</string>
+    <string name="categories">Categories</string>
+    <string name="reward">Reward</string>
+    <string name="hint">Hint</string>
+    <string name="option_1">Option 1</string>
+    <string name="sample_hint">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+    <string name="not_have_enough_coin">Not have enough coin! Watch a video</string>
+    <!--    <string name="timer_description">Not have enough coin!</string>-->
+
+    <string name="hint_buy_title">No Hints Left!</string>
+    <string name="hint_buy_title_opt">Get More Hint!</string>
+    <string name="fifty_fifty_buy_title">50/50 Lifeline Run Out!</string>
+    <string name="fifty_fifty_buy_title_opt">Get More 50/50 Lifeline!</string>
+    <string name="timer_buy_title">Timer Run Out!</string>
+    <string name="timer_buy_title_opt">Get More Timer!</string>
+
+
+    <string name="timer_extend_description">Do you want to extend timer for 10 seconds?</string>
+    <string name="common_buy_description">You can get another one by using coins or watching a short video</string>
+
+    <string name="continue_to_next_question">No, Continue to Next Question</string>
+    <string name="txt_btn_extend_timer">Extend Timer</string>
+    <string name="complete_previous_category">Complete previous category levels to</string>
+    <string name="history">History</string>
+    <string name="questions_list">Questions List</string>
+    <string name="watch_a_video_to_get_free_coins">Watch a Video to get free coins</string>
+    <string name="coin">Coin</string>
+    <string name="use_50_50_lifeline_for_difficult_question">Use 50/50 Lifeline for difficult question</string>
+    <string name="shop_now">SHOP NOW</string>
+    <string name="timer">Timer</string>
+    <string name="fifty_fifty_lifeline">Fifty Fifty Lifeline</string>
+    <string name="use_hint_for_difficult_question">Use Hint for difficult question</string>
+    <string name="extend_timer_when_time_is_run_out">Extend timer when time is run out</string>
+    <string name="exception_handler">Exception Handler</string>
+    <string name="_10">10</string>
+    <string name="setting">Setting</string>
+    <string name="sound">Sound</string>
+    <string name="performance_breakdown">Performance Breakdown</string>
+    <string name="time_taken">Time Taken</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="retry">Retry</string>
+    <string name="double_x2">Double X2</string>
+
+
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="adapterTitle">18sp</dimen>
+    <dimen name="categoryMain">15dp</dimen>
+
+    <dimen name="commonTitle">22sp</dimen>
+    <dimen name="subCommonTitle">14sp</dimen>
+    <dimen name="view_all_cat">14sp</dimen>
+
+    <dimen name="noQuiz">20sp</dimen>
+
+    <dimen name="aboutButton">14sp</dimen>
+
+    <dimen name="size_of_slider_in_home">150dp</dimen>
+    <dimen name="categoryHomeAdapter">90dp</dimen>
+
+    <dimen name="subCategoryAdapter">110dp</dimen>
+    <dimen name="adapterCategoryTitle">16sp</dimen>
+    <dimen name="adapterSubTitle">15sp</dimen>
+    <dimen name="categoryHomeAdapterTitle">12sp</dimen>
+
+
+    <dimen name="categoryAdapter">140dp</dimen>
+
+</resources>

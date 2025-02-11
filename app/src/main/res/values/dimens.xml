@@ -1,0 +1,65 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="adapterTitle">18sp</dimen>
+    <dimen name="categoryMain">15dp</dimen>
+    <!--    <dimen name="adapter">15dp</dimen>-->
+
+
+    <dimen name="commonTitle">22sp</dimen>
+    <dimen name="subCommonTitle">14sp</dimen>
+    <dimen name="view_all_cat">14sp</dimen>
+
+    <dimen name="aboutButton">14sp</dimen>
+
+
+    <dimen name="noQuiz">20sp</dimen>
+
+    <!--   Home  -->
+    <dimen name="size_of_slider_in_home">150dp</dimen>
+    <dimen name="noCategoryFoundTxtMinHeight">100dp</dimen>
+
+    <!--  Home Category  -->
+    <dimen name="categoryHomeAdapter">90dp</dimen>
+    <dimen name="categoryHomeAdapterTitle">15sp</dimen>
+
+    <!--  Sub category  -->
+    <dimen name="subCategoryAdapter">110dp</dimen>
+    <dimen name="adapterSubTitle">16sp</dimen>
+
+
+    <!--  Category Main  -->
+    <dimen name="categoryAdapterMainMargin">0dp</dimen>
+
+    <dimen name="categoryAdapter">140dp</dimen>
+    <dimen name="adapterCategoryTitle">20sp</dimen>
+
+    <!--  Quiz Screen  -->
+    <dimen name="quizPauseIconSize">45dp</dimen>">
+
+    <dimen name="quizTxtHintSize">15sp</dimen>">
+
+    <!--  Quiz History Screen  -->
+    <dimen name="quizHistoryTitle">20sp</dimen>">
+
+
+    <!--  Result Screen  -->
+    <dimen name="resultBoxPadding">30dp</dimen>">
+
+    <dimen name="resultTextSize">22sp</dimen>">
+    <dimen name="resultLossWinTextSize">30sp</dimen>">
+    <dimen name="resultButtonSize">125dp</dimen>">
+
+    <!--  Common  -->
+    <dimen name="commonMarginBottom">15dp</dimen>
+
+    <dimen name="normalText">15</dimen>
+    <dimen name="quizPlayTitle">20sp</dimen>">
+
+</resources>

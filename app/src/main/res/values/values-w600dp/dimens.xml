@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="fab_margin">48dp</dimen>
+
+
+    <!--  Quiz Screen  -->
+   <dimen name="quizTxtHintSize">16sp</dimen>">
+
+   <!--  Result Screen  -->
+    <dimen name="resultBoxPadding">30dp</dimen>">
+
+    <dimen name="resultTextSize">22sp</dimen>">
+    <dimen name="resultLossWinTextSize">30sp</dimen>">
+    <dimen name="resultButtonSize">130dp</dimen>">
+
+    <!--  Common  -->
+    <dimen name="commonMarginBottom">20dp</dimen>">
+
+
+</resources>

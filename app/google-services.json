@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "318157537076",
+    "project_id": "java-programming-quiz-143",
+    "storage_bucket": "java-programming-quiz-143.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318157537076:android:f4eda3a54560371d906f61",
+        "android_client_info": {
+          "package_name": "com.javaprogramming.quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWot7ITC26NOTs2DSMYMYhwJB5Z_ERaME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

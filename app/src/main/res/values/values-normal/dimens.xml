@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adapterTitle">20sp</dimen>
+    <dimen name="categoryMain">11dp</dimen>
+
+    <dimen name="commonTitle">22sp</dimen>
+    <dimen name="subCommonTitle">14sp</dimen>
+    <dimen name="view_all_cat">14sp</dimen>
+
+    <dimen name="aboutButton">14sp</dimen>
+
+
+    <dimen name="noQuiz">20sp</dimen>
+
+    <dimen name="size_of_slider_in_home">200dp</dimen>
+    <dimen name="categoryHomeAdapter">90dp</dimen>
+
+    <dimen name="subCategoryAdapter">110dp</dimen>
+    <dimen name="adapterCategoryTitle">20dp</dimen>
+    <dimen name="adapterSubTitle">16sp</dimen>
+    <dimen name="categoryHomeAdapterTitle">15sp</dimen>
+
+
+    <dimen name="categoryAdapter">140dp</dimen>
+
+    <!--  Quiz Screen  -->
+    <dimen name="quizPauseIconSize">45dp</dimen>">
+    <dimen name="quizTxtHintSize">13sp</dimen>">-
+
+   <!--  Common  -->
+    <dimen name="commonMarginBottom">15dp</dimen>">
+</resources>

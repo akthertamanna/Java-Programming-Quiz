@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="fab_margin">48dp</dimen>
+
+    <!--  Home Category  -->
+    <dimen name="categoryHomeAdapter">150dp</dimen>
+
+    <!--  Category Main  -->
+    <dimen name="categoryAdapterMainMargin">4dp</dimen>
+
+
+    <!--  Quiz Screen  -->
+    <dimen name="quizPauseIconSize">45dp</dimen>">
+    <dimen name="quizTxtHintSize">16sp</dimen>">
+
+
+    <!--  Result Screen  -->
+    <dimen name="resultBoxPadding">15dp</dimen>">
+    <dimen name="resultTextSize">18sp</dimen>">
+    <dimen name="resultLossWinTextSize">25sp</dimen>">
+    <dimen name="resultButtonSize">150dp</dimen>">
+
+    <!--  Common  -->
+    <dimen name="commonMarginBottom">20dp</dimen>">
+
+</resources>

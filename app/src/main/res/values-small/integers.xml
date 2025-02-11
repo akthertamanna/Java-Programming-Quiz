@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="number_of_grid_items_category">1</integer>
+    <integer name="number_of_grid_items_home_category">2</integer>
+    <integer name="number_of_grid_items_subcat">2</integer>
+    <integer name="category_home_orientation">0</integer>
+
+    <!-- Quiz History Fragment -->
+    <integer name="number_of_grid_items_history">2</integer>
+
+</resources>
